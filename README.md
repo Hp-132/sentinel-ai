@@ -6,7 +6,15 @@ Sentinel AI is a real-time evaluation platform for testing and comparing LLM saf
 
 ## Why this exists
 
-Teams are shipping LLMs into real products faster than they're evaluating whether those models are actually safe to use. Sentinel AI gives you a concrete, comparable way to answer: *"if I switch models, does my risk go up or down?"* — instead of relying on vendor claims.
+Teams are shipping LLM-powered features into production faster than they can properly evaluate safety and reliability. This creates real uncertainty around whether models behave safely under real-world conditions.
+
+- If a model is swapped, does it introduce new security or compliance risks?
+- How do we reliably detect jailbreaks or prompt injection attempts?
+- Are guardrails genuinely working, or just giving a false sense of safety?
+- How do we compare models objectively beyond vendor claims and static benchmarks?
+- What happens to latency and performance trade-offs when scaling in production?
+
+Sentinel AI turns these questions into measurable evaluations by running identical prompts across multiple models and analyzing their responses in a consistent, repeatable way.
 
 ## What it does
 
